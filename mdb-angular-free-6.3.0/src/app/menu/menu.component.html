@@ -1,0 +1,28 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark black">
+  <links>
+      <ul class="navbar-nav mr-auto p-3">
+          <li class="nav-item active pr-4">
+              <a class="nav-link waves-light" mdbWavesEffect>Сервис<span class="sr-only">(current)</span></a>
+          </li>
+           <li class="nav-item dropdown pr-4" dropdown>
+            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+              Проекты
+              <span class="caret"></span></a>
+            <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">Web-проекты</a>
+                <div class="divider dropdown-divider"></div>
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">Мобильные приложения</a>
+            </div>
+        </li>
+          <li class="nav-item pr-4">
+              <a class="nav-link waves-light" mdbWavesEffect>О компании</a>
+          </li>
+          <li class="nav-item pr-4">
+              <a class="nav-link waves-light" mdbWavesEffect>Команда</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link waves-light" mdbWavesEffect>Контакты</a>
+          </li>
+      </ul>
+  </links>
+</mdb-navbar>
